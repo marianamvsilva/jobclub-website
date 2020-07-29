@@ -1,0 +1,26 @@
+.faqs {
+  background-color: #f5f5f5;
+}
+
+.block-faqs {
+  max-width: 50%;
+  margin: auto;
+}
+
+.classes.heading {
+  color: red;
+}
+
+.expand-icon {
+  color: red;
+}
+
+.MuiAccordion-rounded {
+  border-radius: 8px !important;
+  margin: 1% 0;
+  border: none;
+}
+
+.faqs svg {
+  color: #004ef5;
+}

@@ -5,6 +5,7 @@ import Header from "./components/header";
 import Benefits from "./components/benefits";
 import Intro from "./components/intro";
 import How from "./components/howitworks";
+import FAQs from "./components/faqs";
 import "font-awesome/css/font-awesome.min.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Benefits />
       <Intro />
       <How />
+      <FAQs />
     </div>
   );
 }

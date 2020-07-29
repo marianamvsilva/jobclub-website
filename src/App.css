@@ -25,7 +25,16 @@ h2 {
 h3 {
   color: #4c4c4c;
   font-size: 24px !important;
-  font-weight: 600;
+  font-weight: 600 !important;
+}
+
+h4 {
+  color: #004ef5;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  font-family: "DM Sans", sans-serif !important;
 }
 
 p {
@@ -36,7 +45,7 @@ p {
 }
 
 .container {
-  padding: 5% 0;
+  padding: 5% 0 !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
