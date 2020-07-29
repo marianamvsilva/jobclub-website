@@ -3,15 +3,16 @@
 }
 
 .benefits p {
+  font-weight: 500;
   font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #444444;
 }
 
 .benefits-text {
-  font-weight: 500;
-  font-size: 19px;
-  line-height: 24px;
-  color: #000000;
-  margin-top: 2%;
+  color: #000000 !important;
+  margin-top: 5% !important;
 }
 
 /*LIST*/
@@ -27,25 +28,41 @@ li {
 }
 
 ul {
-  margin: 2em 0;
+  margin: 1em 0;
 }
 
 li {
-  margin: 1em;
-  margin-left: 3em;
+  margin: 1.75em;
+  margin-left: 1.75em;
 }
 
 li:before {
-  content: "\f0f4";
+  content: "\f0b1";
   font-family: "FontAwesome";
   float: left;
-  margin-left: -1.5em;
+  margin-left: -1.75em;
+  margin-right: 1em;
   color: #0074d9;
+  background: #ffc0c0;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.icon-purple li:before {
+  content: "\f0b1";
+  font-family: "FontAwesome";
+  float: left;
+  margin-left: -1.75em;
+  margin-right: 1em;
+  color: red !important;
+  background: #ffc0c0;
+  padding: 10px;
+  border-radius: 50%;
 }
 
 /*CARD*/
 .card {
-  bottom: 580px;
+  bottom: 585px;
   left: 670px;
   border: none;
 }
@@ -60,11 +77,3 @@ li:before {
   background-color: white;
   border-radius: 5px !important;
 }
-
-/*@media (prefers-reduced-motion: no-preference) {
-  .card-body {
-    position: none;
-    background-color: red;
-    border-radius: 5px;
-  }
-}*/

@@ -2,9 +2,6 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import "./benefits.css";
 import image_womanwriting from "./images/image_womanwriting.png";
-import "font-awesome/css/font-awesome.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 export default function Benefits() {
   return (
@@ -21,15 +18,19 @@ export default function Benefits() {
             <Card.Text>
               <p className="benefits-text">Mas precisas de:</p>
               <ul>
-                <li>
-                  {" "}
-                  <FontAwesomeIcon icon={faCoffee} className="fontawesome" />
+                <li className="icon-orange">
                   Conhecer e interagir com novas empresas.
                 </li>
-                <li>Receber feedback qualificado de recrutadores.</li>
-                <li>Perceber como abordar as empresas.</li>
-                <li>Identificar erros frequentes.</li>
-                <li>Superar a insegurança na procura de emprego.</li>
+                <li className="icon-blue">
+                  Receber feedback qualificado de recrutadores.
+                </li>
+                <li className="icon-green">
+                  Perceber como abordar as empresas.
+                </li>
+                <li className="icon-salmon">Identificar erros frequentes.</li>
+                <li className="icon-purple">
+                  Superar a insegurança na procura de emprego.
+                </li>
               </ul>
             </Card.Text>
           </Card.Body>

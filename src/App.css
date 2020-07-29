@@ -20,15 +20,17 @@ h2 {
   color: #004ef5;
   font-size: 34px !important;
   font-weight: bold;
+  letter-spacing: -0.03em;
 }
 
 p {
   color: #494949;
   font-size: 23px;
+  line-height: 34px;
 }
 
 .container {
-  margin: 5% 0;
+  padding: 5% 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
