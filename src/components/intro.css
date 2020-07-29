@@ -4,30 +4,34 @@
 
 .intro p {
   font-size: 18px;
-  line-height: 26px;
-  /* or 173% */
-
+  line-height: 173%;
   letter-spacing: -0.01em;
-
-  /* Neutral/Just Black */
-
   color: #000000;
 }
 
-/*CARD*/
-.card {
-  bottom: 585px;
-  left: 670px;
-  border: none;
+.intro-img {
+  border-radius: 8px;
+  max-width: 100%;
 }
 
-.card-body {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  max-width: 594px;
+/*CARD*/
+.intro .card {
+  border: none;
+  background-color: white;
+  position: static;
+  padding: 10% 11%;
+}
+
+.intro .card-body {
+  position: unset;
   top: 5px;
   padding: 10% 11%;
   background-color: white;
   border-radius: 5px !important;
+}
+
+/*BLOCK*/
+.block {
+  display: flex;
+  flex-direction: row;
 }

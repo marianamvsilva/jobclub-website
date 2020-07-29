@@ -19,14 +19,14 @@ h1 {
 h2 {
   color: #004ef5;
   font-size: 34px !important;
-  font-weight: bold;
   letter-spacing: -0.03em;
 }
 
 p {
-  color: #494949;
-  font-size: 23px;
-  line-height: 34px;
+  color: #525252;
+  font-size: 18px;
+  line-height: 186%;
+  letter-spacing: -0.01em;
 }
 
 .container {
