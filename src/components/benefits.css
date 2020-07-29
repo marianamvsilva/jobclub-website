@@ -1,0 +1,33 @@
+.benefits p {
+  font-size: 17px;
+}
+
+li {
+  margin: inherit;
+}
+
+.benefits-img {
+  max-width: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .card-body {
+    position: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px 40px;
+  }
+}
+
+.card-body {
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px 40px;
+}
+
+.card {
+  bottom: 580px;
+  left: 700px;
+  border-color: snow;
+}
