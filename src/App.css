@@ -18,7 +18,8 @@ h1 {
 
 h2 {
   color: #004ef5;
-  font-size: 10px;
+  font-size: 34px !important;
+  font-weight: bold;
 }
 
 p {

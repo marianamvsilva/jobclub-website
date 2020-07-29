@@ -3,6 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/header";
 import Benefits from "./components/benefits";
+import "font-awesome/css/font-awesome.min.css";
 
 function App() {
   return (
