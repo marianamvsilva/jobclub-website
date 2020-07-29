@@ -1,3 +1,39 @@
 .how-it-works h2 {
   color: #261f43;
 }
+
+.how-it-works p {
+  margin-bottom: 0;
+}
+
+/*CARDS*/
+.how-it-works .card {
+  padding: 3%;
+  border: none;
+  border-radius: 16px;
+  margin: 2% 0;
+  max-width: 85%;
+}
+
+.card-yellow .card {
+  background-color: #fdf1dd;
+}
+.card-blue .card {
+  background-color: #ebf7fe;
+}
+.card-green .card {
+  background-color: #f1fad7;
+}
+
+/*SVG ICONS*/
+svg {
+  color: #ffa724;
+  font-size: 55px !important;
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.display-cards {
+  margin: 5% 0;
+}
