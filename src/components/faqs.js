@@ -26,10 +26,8 @@ export default function SimpleAccordion() {
       <div className="container">
         <div className="block-faqs">
           <img src={image_desk} className="faqs-img" alt="desk" />
-
-          <p>FAQs</p>
+          <p className="faqs-p">FAQs</p>
           <h2>Preguntas Frequentes</h2>
-          <br></br>
           <div className={classes.root}>
             <Accordion>
               <AccordionSummary

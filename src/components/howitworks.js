@@ -21,15 +21,13 @@ export default function HowItWorks() {
             <div className="display-cards">
               <div className="card-yellow">
                 <Card>
-                  <div className="row">
-                    <div className="col-lg-2">
-                      {" "}
-                      <FontAwesomeIcon
-                        icon={faBriefcase}
-                        className="fontawesome-icon-orange"
-                      />{" "}
-                    </div>
-                    <div className="col-lg-10">
+                  <div className="row-cards">
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBriefcase}
+                      className="fontawesome-icon-orange"
+                    />{" "}
+                    <div className="display-cards-row">
                       <h3>Empresas</h3>
 
                       <p>
@@ -42,15 +40,13 @@ export default function HowItWorks() {
               </div>
               <div className="card-blue">
                 <Card>
-                  <div className="row">
-                    <div className="col-lg-2">
-                      {" "}
-                      <FontAwesomeIcon
-                        icon={faBriefcase}
-                        className="fontawesome-icon"
-                      />{" "}
-                    </div>
-                    <div className="col-lg-10">
+                  <div className="row-cards">
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBriefcase}
+                      className="fontawesome-icon"
+                    />{" "}
+                    <div className="display-cards-row">
                       <h3>Facilitadores</h3>
                       <p>
                         Dedicados a ajudar-te a navegar ao longo do processo de
@@ -62,15 +58,13 @@ export default function HowItWorks() {
               </div>
               <div className="card-green">
                 <Card>
-                  <div className="row">
-                    <div className="col-lg-2">
-                      {" "}
-                      <FontAwesomeIcon
-                        icon={faBriefcase}
-                        className="fontawesome-icon"
-                      />{" "}
-                    </div>
-                    <div className="col-lg-10">
+                  <div className="row-cards">
+                    {" "}
+                    <FontAwesomeIcon
+                      icon={faBriefcase}
+                      className="fontawesome-icon"
+                    />{" "}
+                    <div className="display-cards-row">
                       <h3>Tu</h3>
                       <p>Dedicação e uma pequena pitada de esperança!</p>
                     </div>

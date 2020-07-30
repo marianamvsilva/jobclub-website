@@ -5,6 +5,13 @@
 .how-it-works p {
   margin-bottom: 0;
 }
+.how-it-works h3 {
+  font-size: 18px !important;
+}
+
+.how-img {
+  max-width: 100%;
+}
 
 /*CARDS*/
 .how-it-works .card {
@@ -28,12 +35,27 @@
 /*SVG ICONS*/
 svg {
   color: #ffa724;
-  font-size: 55px !important;
+  font-size: 40px !important;
   background-color: white;
-  padding: 15px;
+  padding: 10px;
   border-radius: 50%;
 }
 
 .display-cards {
   margin: 5% 0;
+}
+
+.row-cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.display-cards-row {
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .how-it-works .card {
+    max-width: 100%;
+  }
 }
