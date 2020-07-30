@@ -7,34 +7,40 @@ export default function Benefits() {
   return (
     <div className="benefits">
       <div className="container">
-        <img
-          src={image_womanwriting}
-          className="benefits-img"
-          alt="woman-writing"
-        />
-        <Card style={{ width: "500px" }}>
-          <Card.Body>
-            <h2>Procuras dar o próximo passo na tua carreira?</h2>{" "}
-            <Card.Text>
+        <div className="row">
+          <div className="col-lg-7">
+            {" "}
+            <img
+              src={image_womanwriting}
+              className="benefits-img"
+              alt="woman-writing"
+            />
+          </div>
+          <div className="col-lg-5 col-card">
+            {" "}
+            <Card>
+              <h2>Procuras dar o próximo passo na tua carreira?</h2>{" "}
               <p className="benefits-text">Mas precisas de:</p>
               <ul>
                 <li className="icon-orange">
-                  Conhecer e interagir com novas empresas.
+                  <p>Conhecer e interagir com novas empresas.</p>
                 </li>
                 <li className="icon-blue">
-                  Receber feedback qualificado de recrutadores.
+                  <p>Receber feedback qualificado de recrutadores.</p>
                 </li>
                 <li className="icon-green">
-                  Perceber como abordar as empresas.
+                  <p>Perceber como abordar as empresas.</p>
                 </li>
-                <li className="icon-salmon">Identificar erros frequentes.</li>
+                <li className="icon-salmon">
+                  <p>Identificar erros frequentes.</p>
+                </li>
                 <li className="icon-purple">
-                  Superar a insegurança na procura de emprego.
+                  <p>Superar a insegurança na procura de emprego.</p>
                 </li>
               </ul>
-            </Card.Text>
-          </Card.Body>
-        </Card>
+            </Card>
+          </div>
+        </div>
       </div>
     </div>
   );

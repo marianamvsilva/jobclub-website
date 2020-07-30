@@ -9,7 +9,7 @@ export default function Navigation() {
     <div className="navigation">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-logo">
             {" "}
             <img src={logo_jobclub} className="logo-main" alt="JobClub"></img>
           </div>

@@ -16,7 +16,7 @@ export default function Intro() {
             />
           </div>
           <div className="col-lg-5">
-            <Card style={{ width: "500px" }}>
+            <Card>
               <h2>O Job Club</h2>
               <p>
                 Oferece um conjunto de sessões online onde pequenos grupos de

@@ -1,13 +1,18 @@
 .benefits-img {
-  max-width: 85%;
+  max-width: 150%;
+}
+
+@media only screen and (max-width: 768px) {
+  .benefits-img {
+    max-width: 100%;
+  }
 }
 
 .benefits p {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 100%;
   letter-spacing: -0.03em;
-  color: #444444;
 }
 
 .benefits-text {
@@ -25,10 +30,6 @@ li {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-ul {
-  margin: 1em 0;
 }
 
 li {
@@ -61,19 +62,13 @@ li:before {
 }
 
 /*CARD*/
-.benefits .card {
-  bottom: 585px;
-  left: 670px;
-  border: none;
-}
 
-.benefits .card-body {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  max-width: 594px;
-  top: 5px;
-  padding: 10% 11%;
+.benefits .card {
+  padding: 6% 8%;
   background-color: white;
   border-radius: 5px !important;
+}
+
+.col-card {
+  margin: auto;
 }
