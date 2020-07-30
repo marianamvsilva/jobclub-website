@@ -5,7 +5,7 @@ import image_grouppeople from "./images/image_grouppeople.png";
 
 export default function Intro() {
   return (
-    <div className="intro">
+    <div className="intro" id="sobre">
       <div className="container">
         <div className="row">
           <div className="col-lg-7">

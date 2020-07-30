@@ -5,7 +5,7 @@ import header_img from "./images/image_header.png";
 
 export default function Header() {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-intro">

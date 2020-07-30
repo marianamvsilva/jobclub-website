@@ -12,7 +12,7 @@ import photo_martinho from "./images/photo_martinho.png";
 
 export default function Team() {
   return (
-    <div className="team">
+    <div className="team" id="equipa">
       <div className="container">
         {" "}
         <p className="team-p">EQUIPA</p>

@@ -7,7 +7,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 export default function HowItWorks() {
   return (
-    <div className="how-it-works">
+    <div className="how-it-works" id="funciona">
       <div className="container">
         <div className="row">
           <div className="col-lg-7">
