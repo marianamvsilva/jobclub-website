@@ -1,0 +1,63 @@
+.team {
+  background-color: #f5f5f5;
+}
+
+.team .container {
+  padding-top: 0 !important;
+}
+
+.team h2 {
+  color: #261f43;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.team-p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.profile-description {
+  text-align: left !important;
+  font-size: 15px;
+  line-height: 149%;
+  letter-spacing: -0.01em;
+}
+
+/*CARDS*/
+.photo-team {
+  border-radius: 400px;
+  width: 120px;
+  height: 120px;
+  margin: 10% 0;
+}
+
+.person-title {
+  color: #004ef5;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.team .card {
+  align-items: center;
+  text-align: center;
+  border-radius: 5px !important;
+  border: 1px solid red;
+  padding: 4% 10%;
+}
+
+.team .row {
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 768px) {
+  .team .row {
+    max-width: 100%;
+    margin: auto;
+  }
+  .team .card {
+    margin-bottom: 5%;
+  }
+}
