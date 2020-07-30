@@ -14,7 +14,7 @@ export default function Navigation() {
             <img src={logo_jobclub} className="logo-main" alt="JobClub"></img>
           </div>
           <div className="col-lg-6 menu-bar">
-            <Navbar scrolling dark expand="sm" sticky="bottom">
+            <Navbar bg="white" variant="light" scrolling dark expand="lg">
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
